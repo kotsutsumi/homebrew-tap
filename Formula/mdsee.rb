@@ -6,20 +6,20 @@ class Mdsee < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/kotsutsumi/mdsee/releases/download/v#{version}/mdsee-aarch64-apple-darwin.tar.gz"
-      sha256 "1e13ac886765152b80c01e8c34899cb4b71696b0db1999ee386208ddc8640bbd"
+      sha256 "3e945e3051bf38fac7758850900ff631e85e7bd1e4b079bbdfa12a7e57f65d3a"
     else
       url "https://github.com/kotsutsumi/mdsee/releases/download/v#{version}/mdsee-x86_64-apple-darwin.tar.gz"
-      sha256 "d6e1305e6b9ee8c067d902013eabe6377a8ecde5667eefb83519d5e99741bb34"
+      sha256 "0120049da1eaba28503b4fe22c068f637797df9e2c29b8e00a9ae0898dbaaa61"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/kotsutsumi/mdsee/releases/download/v#{version}/mdsee-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "541a3b30a9fd7f2807de1fdb0329ce217d3206b365594aaa35195ad338e7acc9"
+      sha256 "fe8986e544538cbf4551df0d8c7a79b7a53fc07d2db060c69f0da6073b40268a"
     else
       url "https://github.com/kotsutsumi/mdsee/releases/download/v#{version}/mdsee-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "17d37a058f321ccfb3480ce42408f4560454cc599f407d39e56924f52feb28f3"
+      sha256 "ec071be813d25fc6dcaecbb68c1955641d4fc8c09248e62619a9e4d8b5a515a4"
     end
   end
 
